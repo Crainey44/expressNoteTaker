@@ -1,18 +1,8 @@
-const express = require('express');
-const path = require('path');
-const { title } = require('process');
-
-const app = express();
-const PORT = 3000;
-
-app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
-
-const noteTitle = $('.note-title');
-const noteText = $('.note-textarea');
-const saveNoteBtn = $('.save-note');
-const newNoteBtn = $
-const noteList
+const noteTitle;
+const noteText;
+const saveNoteBtn;
+const newNoteBtn;
+const noteList;
 
 
 if (window.location.pathname === '/notes') {
